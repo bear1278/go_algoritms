@@ -52,6 +52,7 @@ func main() {
    fmt.Println("Время выполнения: ", duration)
 }
 
+
 // Merge2Channels below
 
 func merge2Channels(fn func(int) int, in1 <-chan int, in2 <-chan int, out chan<- int, n int) {
